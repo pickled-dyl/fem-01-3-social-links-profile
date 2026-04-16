@@ -167,6 +167,18 @@ select {
 
 /* ROOT VARIABLES */
 
+:root {
+    --contrast-text: hsl(75, 94%, 57%);
+    --main-text: hsl(0, 0%, 100%);
+    --gray-700: hsl(0, 0%, 20%);
+    --gray-800: hsl(0, 0%, 12%);
+    --gray-900: hsl(0, 0%, 8%);
+
+    --regular-weight: 400;
+    --medium-weight: 600;
+    --bold-weight: 700;
+}
+
 /* GLOBAL STYLES */
 
 /* PROVIDED STYLES */

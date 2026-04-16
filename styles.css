@@ -217,15 +217,15 @@ section:first-of-type {
 }
 
 section:first-of-type img {
-    width: 5rem;
+    width: 75px;
     border-radius: 90px;
+    margin-bottom: 1.5rem;
 }
 
 section:first-of-type h1 {
     color: var(--main-text);
     font-size: 1.3rem;
     font-weight: var(--medium-weight);
-    margin-top: 1.5rem 0;
 }
 
 section:first-of-type h2 {

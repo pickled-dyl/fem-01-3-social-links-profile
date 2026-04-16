@@ -257,6 +257,11 @@ section ul li {
     border-radius: 10px;
 }
 
+section ul li:hover {
+    background-color: var(--contrast-text);
+    color: var(--gray-800);
+}
+
 footer {
     margin-top: 1rem;
 }
@@ -270,4 +275,13 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERY (desktop) */
+@media screen and (min-width:1440px) {
+
+    main,
+    footer {
+        max-width: 300px;
+    }
 }

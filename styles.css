@@ -187,10 +187,30 @@ body {
     width: 100vw;
     height: 100vh;
     min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body p {
     font-size: 14px;
+}
+
+main {
+    background-color: var(--gray-800);
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 1rem;
 }
 
 /* PROVIDED STYLES */

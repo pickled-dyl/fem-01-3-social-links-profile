@@ -181,6 +181,14 @@ select {
 
 /* GLOBAL STYLES */
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
+body p {
+    font-size: 14px;
+}
+
 /* PROVIDED STYLES */
 .attribution {
     font-size: 0.6875rem;
